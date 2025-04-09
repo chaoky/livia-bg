@@ -1,0 +1,20 @@
+.bg {
+  background: url("https://media.discordapp.net/attachments/486338069331443716/1359323328656965703/Design_sem_nome_4.png?ex=67f71000&is=67f5be80&hm=b5be4c387068726ba96a0cddc7f777d771ceca49b49829a89416f40d874c841a&=&format=webp&quality=lossless&width=1172&height=659");
+}
+
+.thing {
+  background: url("https://media.discordapp.net/attachments/486338069331443716/1359330063686041713/611dddac-3cfc-4d0f-bb3a-0eb385f1a429_removalai_preview.png?ex=67f71646&is=67f5c4c6&hm=b08f6d9ab399e58b05491c48acf4ede5b57a885ee05679da7b25097ce8e8a7a4&=&format=webp&quality=lossless")
+    repeat 0 0;
+  height: 1000px;
+  width: 1000px;
+  animation: slide 1000s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100000px 100000px;
+  }
+}
